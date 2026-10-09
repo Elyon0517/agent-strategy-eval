@@ -1,0 +1,5 @@
+[
+  {"id":"preference","query":"Help plan dinner","history":["I prefer vegetarian dinner"],"memories":["Dinner preference: vegetarian"],"profile":["User prefers vegetarian meals"],"summary":"User requests vegetarian dinner","expected":["vegetarian"],"forbidden":["steak"]},
+  {"id":"correction","query":"Which city should I use for travel?","history":["I moved to Boston"],"memories":["Current travel city: Boston"],"profile":["Current city: Boston"],"summary":"User currently lives in Boston","expected":["Boston"],"forbidden":["Seattle"]},
+  {"id":"profile","query":"Explain the result","history":["Thanks"],"memories":["Preferred explanation language: Spanish"],"profile":["Answer in Spanish"],"summary":"User asked for help","expected":["Spanish"]}
+]
