@@ -72,7 +72,9 @@ floweval examples/fixtures.json --output report.json
 
 ## License
 
-[MIT](LICENSE) © Elyon Li
+Licensed under the [MIT License](LICENSE).
+
+Copyright © 2026 Honghao Li.
 
 ## Optional integration
 

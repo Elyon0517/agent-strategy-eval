@@ -9,7 +9,7 @@ description = "Reproducible offline evaluation of memory and context strategies"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-authors = [{name = "Elyon Li"}]
+authors = [{name = "Honghao Li"}]
 dependencies = []
 
 [project.optional-dependencies]
