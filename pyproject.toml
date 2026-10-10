@@ -19,8 +19,8 @@ dev = ["pytest>=8,<10", "ruff>=0.14,<1", "mypy>=1.15,<2"]
 floweval = "floweval.cli:main"
 
 [project.urls]
-Repository = "https://github.com/Elyon0517/floweval"
-Issues = "https://github.com/Elyon0517/floweval/issues"
+Repository = "https://github.com/Elyon0517/agent-strategy-eval"
+Issues = "https://github.com/Elyon0517/agent-strategy-eval/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/floweval"]

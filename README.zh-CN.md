@@ -1,10 +1,12 @@
 <div align="center">
 
-# FlowEval
+# Agent Strategy Eval
+
+原名 **FlowEval**。本次调整仓库名称；Python 包名、import 路径和 CLI 命令保持兼容。
 
 **Compare memory strategies with reproducible fixtures.**
 
-[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Status](https://img.shields.io/badge/status-alpha-orange)](docs/architecture.md) [![Stars](https://img.shields.io/github/stars/Elyon0517/floweval?style=flat)](https://github.com/Elyon0517/floweval/stargazers)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Status](https://img.shields.io/badge/status-alpha-orange)](docs/architecture.md) [![Stars](https://img.shields.io/github/stars/Elyon0517/agent-strategy-eval?style=flat)](https://github.com/Elyon0517/agent-strategy-eval/stargazers)
 
 喜欢这个项目？请点一个 Star ⭐
 
@@ -27,7 +29,7 @@ flowchart TD
 ## 安装与示例
 
 ```bash
-pip install "floweval-memory @ git+https://github.com/Elyon0517/floweval.git@v0.1.0"
+pip install "floweval-memory @ git+https://github.com/Elyon0517/agent-strategy-eval.git@v0.1.0"
 ```
 
 ```python
@@ -73,4 +75,4 @@ floweval examples/fixtures.json --output report.json
 
 ## 可选集成示例
 
-[contextkit_comparison.py](examples/contextkit_comparison.py) 比较无记忆回调和真实 ContextKit 上下文组装。运行前单独安装 ContextKit 0.2。结果仅验证上下文中的合成短语，不代表模型任务成功率。
+[contextkit_comparison.py](examples/contextkit_comparison.py) 比较无记忆回调和真实 Agent Context Builder 上下文组装。运行前单独安装 Agent Context Builder 0.2。结果仅验证上下文中的合成短语，不代表模型任务成功率。

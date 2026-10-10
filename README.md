@@ -1,10 +1,12 @@
 <div align="center">
 
-# FlowEval
+# Agent Strategy Eval
+
+Formerly **FlowEval**. Repository branding has changed; Python package names, imports and CLI commands remain compatible.
 
 **Compare memory strategies with reproducible fixtures.**
 
-[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Status](https://img.shields.io/badge/status-alpha-orange)](docs/architecture.md) [![Stars](https://img.shields.io/github/stars/Elyon0517/floweval?style=flat)](https://github.com/Elyon0517/floweval/stargazers)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Status](https://img.shields.io/badge/status-alpha-orange)](docs/architecture.md) [![Stars](https://img.shields.io/github/stars/Elyon0517/agent-strategy-eval?style=flat)](https://github.com/Elyon0517/agent-strategy-eval/stargazers)
 
 Find this useful? Give it a star ⭐
 
@@ -27,7 +29,7 @@ An independent evaluation harness for memory/context strategies. Replace the fiv
 ## Install and try
 
 ```bash
-pip install "floweval-memory @ git+https://github.com/Elyon0517/floweval.git@v0.1.0"
+pip install "floweval-memory @ git+https://github.com/Elyon0517/agent-strategy-eval.git@v0.1.0"
 ```
 
 ```python
@@ -74,4 +76,4 @@ floweval examples/fixtures.json --output report.json
 
 ## Optional integration
 
-[contextkit_comparison.py](examples/contextkit_comparison.py) compares a no-memory callback with real ContextKit assembly. Install ContextKit 0.2 separately before running it. The result checks fixture text in context; it is not a model task-success result.
+[contextkit_comparison.py](examples/contextkit_comparison.py) compares a no-memory callback with real Agent Context Builder assembly. Install Agent Context Builder 0.2 separately before running it. The result checks fixture text in context; it is not a model task-success result.
