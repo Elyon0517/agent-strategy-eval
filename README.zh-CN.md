@@ -78,3 +78,13 @@ Copyright © 2026 Honghao Li.
 ## 可选集成示例
 
 [contextkit_comparison.py](examples/contextkit_comparison.py) 比较无记忆回调和真实 Agent Context Builder 上下文组装。运行前单独安装 Agent Context Builder 0.2。结果仅验证上下文中的合成短语，不代表模型任务成功率。
+
+## 可运行的可视化演示
+
+![真实 SDK 运行结果](docs/screenshots/strategy-scorecard.png)
+
+在仓库根目录安装项目后执行 `python examples/showcase.py`，打开生成的
+`docs/showcase/index.html`。演示由真实 SDK 调用生成，不需要 API key 或数据库。
+比较 5 种策略在 3 个合成样例上的 15 组结果，可筛选样例和展开具体上下文；分数不代表真实模型任务成功率。
+
+复现浏览器测试与截图的命令见 [SHOWCASE.md](docs/SHOWCASE.md)。

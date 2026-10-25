@@ -14,6 +14,35 @@ Find this useful? Give it a star ⭐
 
 </div>
 
+## See what each strategy actually keeps
+
+![See what each strategy actually keeps](docs/screenshots/strategy-scorecard.png)
+
+Does your context strategy keep a corrected city or a language preference? Compare the same
+three fixtures across five context-selection baselines, then inspect the context behind
+each pass or failure. The generated report includes a fixture filter and downloadable JSON.
+
+The bundled fixtures produce **15 strategy/case measurements**. These are offline substring
+checks on synthetic examples; they do not demonstrate LLM quality or general superiority of
+any strategy. The report makes both the results and their limits visible.
+
+**Fixtures → five baselines → phrase checks → inspectable scorecard.** No API key, database or model download is needed.
+
+### Run the visual walkthrough
+
+```bash
+git clone https://github.com/Elyon0517/agent-strategy-eval.git
+cd agent-strategy-eval
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+python examples/showcase.py
+# Open docs/showcase/index.html in your browser
+```
+
+The HTML report and JSON are generated locally; they are not a hosted service.
+[Reproduce the browser checks and screenshot](docs/SHOWCASE.md).
+
 ```mermaid
 flowchart TD
   Fixtures --> Strategies
