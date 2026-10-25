@@ -108,3 +108,12 @@ Copyright © 2026 Honghao Li.
 ## Optional integration
 
 [contextkit_comparison.py](examples/contextkit_comparison.py) compares a no-memory callback with real Agent Context Builder assembly. Install Agent Context Builder 0.2 separately before running it. The result checks fixture text in context; it is not a model task-success result.
+
+## Source, copyright and attribution
+
+Original project: [Elyon0517/agent-strategy-eval](https://github.com/Elyon0517/agent-strategy-eval), maintained by
+[Elyon0517](https://github.com/Elyon0517). Project code is available under the [MIT License](LICENSE), subject to file-specific and third-party notices. Redistributions must preserve the applicable copyright and permission notices.
+
+For articles, demos and derivatives, please credit the original project and link here.
+That link is a courtesy request, not an extra restriction on an existing open-source license.
+See [copyright and third-party boundaries](COPYRIGHT.md) and [citation metadata](CITATION.cff).
