@@ -88,3 +88,10 @@ Copyright © 2026 Honghao Li.
 比较 5 种策略在 3 个合成样例上的 15 组结果，可筛选样例和展开具体上下文；分数不代表真实模型任务成功率。
 
 复现浏览器测试与截图的命令见 [SHOWCASE.md](docs/SHOWCASE.md)。
+
+## 来源、版权与署名
+
+原始仓库：[Elyon0517/agent-strategy-eval](https://github.com/Elyon0517/agent-strategy-eval)。
+许可及第三方材料边界见 [COPYRIGHT.md](COPYRIGHT.md)，引用信息见 [CITATION.cff](CITATION.cff)。
+请按适用许可证保留版权和许可声明；文章或演示中附上原仓库链接是署名建议，
+不构成对已有开源许可的额外限制。使用或提及本项目不代表作者为相关产品背书。
